@@ -1,0 +1,23 @@
+.wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  display: grid;
+  grid-gap: 10px;
+  min-width: 450px;
+}
+
+.wrapp {
+  display: grid;
+}
+
+.user {
+  border: 3px solid orange;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.title {
+  text-align: center;
+}
