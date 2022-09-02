@@ -25,7 +25,7 @@ const LoginForm: FC = () => {
       <Button onClick={() => store.login(email, password)} variant='contained'>
         Login
       </Button>
-      <Button onClick={() => store.login(email, password)} variant='contained'>
+      <Button onClick={() => store.registration(email, password)} variant='contained'>
         Registration
       </Button>
     </>
